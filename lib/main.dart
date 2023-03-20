@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:kombazaar/screens/home_screen.dart';
+import 'package:kombazaar/screens/intropage%20.dart';
 import 'package:kombazaar/utils/theme.dart';
 import 'package:cupertino_icons/cupertino_icons.dart';
 
@@ -22,7 +23,7 @@ class _MyAppState extends State<MyApp> {
       title: "Kombazaar",
       debugShowCheckedModeBanner: false,
       theme: myTheme,
-      home: const HomeScreen(),
+      home: const introPage(),
     );
   }
 }
